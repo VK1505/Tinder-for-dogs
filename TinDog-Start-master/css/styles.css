@@ -1,0 +1,199 @@
+body{
+  font-style:  "Montserrat";
+  text-align: center;
+}
+h1,h2,h3,h4{
+  font-style: "Montserrat-Bold";
+}
+h2{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h3
+{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+  /*HEADINGS*/
+
+.big-heading{
+  font-style:  "Montserrat-black";
+  font-size: 4rem;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+  /*CONTAINER*/
+
+.container-fluid{
+  padding: 7% 15% ;
+}
+
+  /*COLOR SECTION*/
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: white;
+}
+
+  /*BUTTONS*/
+
+.btn{
+  font-size: 25px;
+}
+
+button{
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+  /*NAVIGATION BARS*/
+
+.navbar{
+  font-size: 1.4rem;
+}
+
+.navbar-item{
+  padding: 0 18px;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size:3rem ;
+  font-weight: bold;
+}
+
+.navbar{
+  font-family: 'Montserrat-black', sans-serif;
+  padding-bottom: 4.5rem;
+}
+.nav-link{
+  font-style: "Montserrat";
+  font-size: 1.4rem;
+  font-weight: lighter;
+}
+
+/*BUTTONS*/
+
+.download-button{
+  margin: 5% 3% 3% 0;
+}
+
+/*TITLE*/
+
+
+#title .container-fluid{
+padding: 3% 15% 7%;
+text-align: left;
+}
+
+.dog{
+  width: 22%;
+  transform: rotate(25deg);
+  position: absolute;
+  right:25%;
+}
+
+  /*FEATURES*/
+
+#features{
+  position:relative;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+p{
+  color: #8f8f8f;
+}
+
+  /*TESTIMONIALS*/
+
+#testimonials{
+  background-color:#ef8172;
+}
+
+.testimonial-text{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  padding-bottom: 3%;
+  background-color:#ef8172;
+}
+.logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+  /*PRICING*/
+
+#pricing{
+  padding: 100px;
+}
+
+.price-text{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.price-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/*CTA */
+
+.cta-heading{
+  font-family: "Montserrat-Black",sans-serif;
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+
+/*FOOTER*/
+
+.bt-apple{
+  padding-right:7px;
+}
+.bt-play{
+  padding-right:7px;
+}
+.social_media{
+  margin:10px 10px;
+}
+
+@media(max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .dog{
+    position: static;
+    transform: rotate(0);
+  }
+}
